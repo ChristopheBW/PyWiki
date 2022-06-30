@@ -35,7 +35,8 @@ export default class Home extends Component {
                                         You can think of a variable as a label that has a name on it, which you tie onto
                                         a value.
                                     </Card.Text>
-                                    <Button href="/guide-variable" variant="primary" className="float-end">Read More</Button>
+                                    <Button href="/guide-variable" variant="primary" className="float-end">Read
+                                        More</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -45,8 +46,10 @@ export default class Home extends Component {
                                 <Card.Body>
                                     <Card.Title>Expression and Operators</Card.Title>
                                     <Card.Text>
+                                        Operators are used to perform operations on variables and values.
                                     </Card.Text>
-                                    <Button href="/guide-expression" variant="primary" className="float-end">Read More</Button>
+                                    <Button href="/guide-expression" variant="primary" className="float-end">Read
+                                        More</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -56,8 +59,11 @@ export default class Home extends Component {
                                 <Card.Body>
                                     <Card.Title>List</Card.Title>
                                     <Card.Text>
+                                        Lists are used to store multiple items in a single variable. List, Dictionary
+                                        and Tuple.
                                     </Card.Text>
-                                    <Button href="/guide-list" variant="primary" className="float-end">Read More</Button>
+                                    <Button href="/guide-list" variant="primary" className="float-end">Read
+                                        More</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -73,7 +79,8 @@ export default class Home extends Component {
                                         These conditions can be used in several ways, most commonly in "if statements"
                                         <code>if else</code>.
                                     </Card.Text>
-                                    <Button href="/guide-string" variant="primary" className="float-end">Read More</Button>
+                                    <Button href="/guide-string" variant="primary" className="float-end">Read
+                                        More</Button>
                                 </Card.Body>
                             </Card>
                         </Col> <Col>
@@ -85,7 +92,8 @@ export default class Home extends Component {
                                     These conditions can be used in several ways, most commonly in "if statements"
                                     <code>if else</code>.
                                 </Card.Text>
-                                <Button href="/guide-conditions" variant="primary" className="float-end">Read More</Button>
+                                <Button href="/guide-conditions" variant="primary" className="float-end">Read
+                                    More</Button>
                             </Card.Body>
                         </Card>
                     </Col> <Col>
