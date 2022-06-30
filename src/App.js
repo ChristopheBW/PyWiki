@@ -2,7 +2,6 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './components/Home';
 import Guide from './components/Guide';
 import Exercise from './components/Exercise';
-import Forum from './components/Forum';
 import MainNavBar from './components/MainNavBar';
 import Footer from "./components/Footer";
 import GuideVariable from "./components/GuideVariable";
@@ -22,7 +21,6 @@ function App() {
                     <Route path="/" element={<Home/>}/>
                     <Route path="/guide" element={<Guide/>}/>
                     <Route path="/exercise" element={<Exercise/>}/>
-                    <Route path="/forum" element={<Forum/>}/>
                     <Route path="/guide-variable" element={<GuideVariable/>}/>
                     <Route path="/guide-expression" element={<GuideExpression/>}/>
                     <Route path="/guide-list" element={<GuideList/>}/>

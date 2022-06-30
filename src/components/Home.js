@@ -17,7 +17,7 @@ export default class Home extends Component {
                                 className="me-2"
                                 aria-label="Search"
                             />
-                            <Button variant="outline-light">Search</Button>
+                            <Button href="/search" variant="outline-light">Search</Button>
                         </Form>
                     </Container>
                     <br/><br/><br/>
@@ -35,7 +35,7 @@ export default class Home extends Component {
                                         You can think of a variable as a label that has a name on it, which you tie onto
                                         a value.
                                     </Card.Text>
-                                    <Button variant="primary" className="float-end">Read More</Button>
+                                    <Button href="/guide-variable" variant="primary" className="float-end">Read More</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -46,7 +46,7 @@ export default class Home extends Component {
                                     <Card.Title>Expression and Operators</Card.Title>
                                     <Card.Text>
                                     </Card.Text>
-                                    <Button variant="primary" className="float-end">Read More</Button>
+                                    <Button href="/guide-expression" variant="primary" className="float-end">Read More</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -57,7 +57,7 @@ export default class Home extends Component {
                                     <Card.Title>List</Card.Title>
                                     <Card.Text>
                                     </Card.Text>
-                                    <Button variant="primary" className="float-end">Read More</Button>
+                                    <Button href="/guide-list" variant="primary" className="float-end">Read More</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -73,7 +73,7 @@ export default class Home extends Component {
                                         These conditions can be used in several ways, most commonly in "if statements"
                                         <code>if else</code>.
                                     </Card.Text>
-                                    <Button variant="primary" className="float-end">Read More</Button>
+                                    <Button href="/guide-string" variant="primary" className="float-end">Read More</Button>
                                 </Card.Body>
                             </Card>
                         </Col> <Col>
@@ -85,7 +85,7 @@ export default class Home extends Component {
                                     These conditions can be used in several ways, most commonly in "if statements"
                                     <code>if else</code>.
                                 </Card.Text>
-                                <Button variant="primary" className="float-end">Read More</Button>
+                                <Button href="/guide-conditions" variant="primary" className="float-end">Read More</Button>
                             </Card.Body>
                         </Card>
                     </Col> <Col>
@@ -97,7 +97,7 @@ export default class Home extends Component {
                                     These loop can be used in several ways, most commonly in <code>while</code> and
                                     <code>for</code>.
                                 </Card.Text>
-                                <Button variant="primary" className="float-end">Read More</Button>
+                                <Button href="/guide-loop" variant="primary" className="float-end">Read More</Button>
                             </Card.Body>
                         </Card>
                     </Col>

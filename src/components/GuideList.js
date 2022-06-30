@@ -15,7 +15,7 @@ export default class GuideList extends Component {
                     <Col>
                         <Container>
                             <h2>List</h2>
-                            <p>This is how to build a development environment in linux with vim as editor</p>
+                            <p>Article will be ready in the final stage</p>
                         </Container>
                     </Col>
                 </Row>
