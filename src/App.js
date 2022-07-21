@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 import Home from './components/Home';
 import Guide from './components/Guide';
 import Exercise from './components/Exercise';
@@ -13,8 +13,10 @@ import GuideLoop from "./components/GuideLoop";
 import './App.css';
 
 function App() {
+
     return (
         <>
+
             <MainNavBar/>
             <BrowserRouter>
                 <Routes>
